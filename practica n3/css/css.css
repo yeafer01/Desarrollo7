@@ -1,0 +1,199 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #333, #666); 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; 
+    height: 100vh;
+}
+nav {
+    display: flex;
+    justify-content: space-between; /* Un botón a la izquierda y otro a la derecha */
+    align-items: center; /* Centra los elementos verticalmente */
+    background-color: #fff;
+    margin: 4rem;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    border-radius: 12px;
+    width: 100%; /* Se ajusta al ancho completo de la página */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Estilo para los botones dentro del menú de navegación */
+.nav__button {
+    background-color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
+
+.nav__button:hover {
+    background-color: #f0f0f0; /* Cambia el color al pasar el cursor */
+}
+
+.flex {
+    display: flex;
+}
+
+footer {
+    text-align: center;
+    background-color: #ddd;
+    padding: 10px;
+    margin-top: auto; 
+    width: 100%;
+}
+
+.nav__button {
+    display: flex;
+    background-color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333; 
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    color: #fff; 
+    margin: 80px 0 2rem; 
+}
+
+form {
+    background-color: #222;
+    padding: 20px 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    width: 100%;
+    color: #eee; 
+    margin: auto; 
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #ddd;
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #444; 
+    border-radius: 6px;
+    background-color: #333; 
+    color: #fff; 
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #444; 
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #555; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #444;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr {
+    background-color: #ddd;
+}
+
+.boton__eliminar a {
+    background-color: #666;
+}
+
+/* Estilo para los select */
+select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #444; 
+    border-radius: 6px;
+    background-color: #333; 
+    color: #fff; 
+    font-size: 16px; /* Aumenta el tamaño de la fuente */
+    appearance: none; /* Elimina el estilo por defecto del navegador */
+    background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23fff"%3E%3Cpath d="M7 10l5 5 5-5z"/%3E%3C/svg%3E'); /* Flecha personalizada */
+    background-repeat: no-repeat; /* Evita la repetición del fondo */
+    background-position: right 10px center; /* Posiciona la flecha */
+    background-size: 15px; /* Ajusta el tamaño de la flecha */
+    transition: background-color 0.3s ease;
+}
+
+select:focus {
+    border-color: #555; /* Cambia el color del borde al enfocar */
+    outline: none; /* Elimina el contorno */
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); /* Añade un suave efecto de sombra */
+}
+
+select:hover {
+    background-color: #444; /* Cambia el color de fondo al pasar el cursor */
+}
+
+/* Estilo para los enlaces dentro del menú de navegación */
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: #333; 
+    font-weight: bold;
+    margin-bottom: 10px; /* Espacio entre los enlaces */
+    padding: 10px 20px;  /* Ajusta el tamaño de los botones */
+    background-color: #fff;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+/* Espaciado entre los enlaces en el menú */
+.nav__button {
+    margin: 10px 0; /* Espacio vertical entre los botones */
+}
+
+.nav__button:hover {
+    background-color: #f0f0f0; /* Cambia el color al pasar el cursor */
+}
